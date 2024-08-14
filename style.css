@@ -1,0 +1,133 @@
+body {
+    background-color: lightskyblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-primary {
+    text-align: center;
+    font-size: 2rem;
+    color: #175996;
+}
+
+.text-secondary {
+    text-align: center;
+    font-size: 1rem;
+    color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid saddlebrown;
+}
+
+#vaccine {
+    border: 1px solid darkorchid;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#common-diseases-in-children {
+    border: 1px solid darkorchid;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#Obstetrics-and-gynecology {
+    border: 1px solid darkorchid;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#doctor-list {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.horizontal-card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    width: 100%;
+    margin: 10px;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+}
+
+.card-content {
+    padding: 16px;
+    flex: 1;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    margin: 10px;
+    border: 0;
+}
+
+.contact-us-container {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;     
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+  
+li a[href="https://www.facebook.com/siriwanmedicalclinic"]:hover {
+    background-color: #333;
+}
